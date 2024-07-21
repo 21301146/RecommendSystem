@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: 58.87.105.2
+    port: 5672
+    virtual-host: /
+    username: root
+    password: BeiJingJiaoTongDaXue1234567890
+    listener:
+      simple:
+        prefetch: 1   # 预先分配1个 能者多劳
+

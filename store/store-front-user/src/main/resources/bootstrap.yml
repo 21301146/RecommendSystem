@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      server-addr: 58.87.105.2:8848
+server:
+  port: 3001
+
